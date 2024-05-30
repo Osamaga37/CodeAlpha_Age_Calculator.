@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodeAlpha_Age_Calculator./static/css/main.325a5506.css",
+    "main.js": "/CodeAlpha_Age_Calculator./static/js/main.c0b70e60.js",
+    "static/js/453.4f5cc4cc.chunk.js": "/CodeAlpha_Age_Calculator./static/js/453.4f5cc4cc.chunk.js",
+    "index.html": "/CodeAlpha_Age_Calculator./index.html",
+    "main.325a5506.css.map": "/CodeAlpha_Age_Calculator./static/css/main.325a5506.css.map",
+    "main.c0b70e60.js.map": "/CodeAlpha_Age_Calculator./static/js/main.c0b70e60.js.map",
+    "453.4f5cc4cc.chunk.js.map": "/CodeAlpha_Age_Calculator./static/js/453.4f5cc4cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.325a5506.css",
+    "static/js/main.c0b70e60.js"
+  ]
+}
