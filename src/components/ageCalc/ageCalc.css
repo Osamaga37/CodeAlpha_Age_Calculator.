@@ -1,0 +1,81 @@
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #EFF0D1;
+}
+.container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+    background-color: #77BA99;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.container form input {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    color: black;
+}
+.container form button {
+    display: block;
+    padding: 10px 15px;
+    background-color: #EFF0D1;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #262730;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.container form button:hover {
+    background-color: #262730;
+    color: #EFF0D1;
+}
+
+h3 {
+    font-size: 30px;
+    display: block;
+    color: #EFF0D1;
+}
+
+h2 {
+    width: 120px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #77BA99;
+    color: #EFF0D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.age {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+@media (max-width: 630px){
+    .container form {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .age {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
